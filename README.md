@@ -15,7 +15,7 @@ Master's Thesis Research Project
 - **Group:** J4233
 - **Scientific Supervisor:** Dr. Sergey Kovalchuk, PhD
 - **Program:** Computer Science and Information Systems (M.Sc.)
-- **Faculty:** Faculty of Information Technology and Programming
+- **Faculty:** Artificial Intelligence Technologies Faculty
 - **Period:** 2024-2026
 - **Current Status:** Semester 3 Completed
 
