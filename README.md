@@ -165,47 +165,7 @@ log(E[Engagement]) = β₀ + β₁(MediaRichness) + β₂(Sentiment) +
 
 ---
 
-##  Repository Structure
-covid-crisis-communication-analysis/
-│
-├── README.md # This file
-├── requirements.txt # Python dependencies
-├── LICENSE # MIT License
-│
-├── data/
-│ ├── raw/ # Original Kaggle dataset (not included - download separately)
-│ ├── processed/ # Cleaned and engineered features
-│ └── README.md # Data documentation
-│
-├── notebooks/
-│ ├── 01_data_exploration.ipynb # Initial EDA
-│ ├── 02_feature_engineering.ipynb # Feature construction
-│ ├── 03_statistical_modeling.ipynb # Regression analysis
-│ ├── 04_sentiment_validation.ipynb # BERT/RoBERTa validation
-│ └── 05_visualization.ipynb # Charts and figures
-│
-├── src/
-│ ├── preprocessing.py # Data cleaning functions
-│ ├── feature_engineering.py # Feature construction
-│ ├── modeling.py # Regression models
-│ └── sentiment_analysis.py # VADER + transformer methods
-│
-├── results/
-│ ├── figures/ # Charts and visualizations
-│ ├── models/ # Saved model objects
-│ └── tables/ # Statistical output tables
-│
-├── docs/
-│ ├── presentation.pdf # Semester 3 presentation
-│ ├── literature_review.pdf # Academic references
-│ └── methodology.md # Detailed methods documentation
-│
-└── tests/
-└── test_features.py # Unit tests
-
----
-
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
