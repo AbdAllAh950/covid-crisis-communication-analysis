@@ -33,19 +33,23 @@ Communication theories (Media Richness Theory, Dialogic Communication Theory) pr
 
 ---
 
-## Key Findings
+## Key Findings & Visualizations
 
-| Communication Feature | Effect Size | Statistical Significance |
+| Feature | Effect Size | p-value |
+|---------|-------------|---------|
+| Media Richness | **3.9×** | <0.001 |
+| Sentiment | **1.31×** | <0.001 |
+| Questions | **-65%** | <0.001 |
 
-### Media Richness = 3.9× Engagement
+### Media Richness Impact
 <img width="1000" height="700" alt="media_vs_engagement" src="https://github.com/user-attachments/assets/1949e517-5e6a-45a4-8484-c40a8032adc1" />
 
 
-### USA vs UK: Institutional Differences  
+### USA vs UK Comparison 
 <img width="3000" height="1800" alt="usa_uk_media_impact" src="https://github.com/user-attachments/assets/a480cc46-f3d8-4716-b9aa-c42a91d850d1" />
 
 
-### Temporal Dynamics (13 weeks)
+### Temporal Trends
 <img width="4200" height="1800" alt="temporal_engagement" src="https://github.com/user-attachments/assets/ab8e310e-fceb-4d70-a4e8-3198f6e0c036" />
 
 
