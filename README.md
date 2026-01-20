@@ -36,11 +36,18 @@ Communication theories (Media Richness Theory, Dialogic Communication Theory) pr
 ## Key Findings
 
 | Communication Feature | Effect Size | Statistical Significance |
-|----------------------|-------------|-------------------------|
-| **Media Richness** (URLs, images, videos) | **3.9× multiplier** | p < 0.001 |
-| **Sentiment Positivity** | **1.31× multiplier per unit** | p < 0.001 |
-| **Dialogue Elements** (questions) | **-65% engagement** | p < 0.001 |
-| **Geographic Variation** (UK vs USA) | **3.8× vs 1.2×** | Institutional differences |
+
+### Media Richness = 3.9× Engagement
+![Media vs Engagement](images/media_vs_engagement.png)
+
+### USA vs UK: Institutional Differences  
+![USA UK Media Impact](images/usa_uk_media_impact.png)
+
+### Temporal Dynamics (13 weeks)
+![Temporal Engagement](images/temporal_engagement.png)
+
+### Sentiment Robustness (VADER + BERT)
+![Sentiment Robustness](images/sentiment_robustness.png)
 
 ### Major Insights
 
