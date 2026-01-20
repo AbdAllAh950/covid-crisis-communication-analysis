@@ -38,16 +38,20 @@ Communication theories (Media Richness Theory, Dialogic Communication Theory) pr
 | Communication Feature | Effect Size | Statistical Significance |
 
 ### Media Richness = 3.9× Engagement
-![Media vs Engagement](images/media_vs_engagement.png)
+<img width="1000" height="700" alt="media_vs_engagement" src="https://github.com/user-attachments/assets/1949e517-5e6a-45a4-8484-c40a8032adc1" />
+
 
 ### USA vs UK: Institutional Differences  
-![USA UK Media Impact](images/usa_uk_media_impact.png)
+<img width="3000" height="1800" alt="usa_uk_media_impact" src="https://github.com/user-attachments/assets/a480cc46-f3d8-4716-b9aa-c42a91d850d1" />
+
 
 ### Temporal Dynamics (13 weeks)
-![Temporal Engagement](images/temporal_engagement.png)
+<img width="4200" height="1800" alt="temporal_engagement" src="https://github.com/user-attachments/assets/ab8e310e-fceb-4d70-a4e8-3198f6e0c036" />
+
 
 ### Sentiment Robustness (VADER + BERT)
-![Sentiment Robustness](images/sentiment_robustness.png)
+<img width="4200" height="1500" alt="sentiment_robustness" src="https://github.com/user-attachments/assets/4f2243a3-1047-4152-95b5-2f8b660ae787" />
+
 
 ### Major Insights
 
