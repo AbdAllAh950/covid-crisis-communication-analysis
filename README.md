@@ -239,6 +239,8 @@ covid-crisis-communication-analysis/
 ├── requirements.txt                 # Python dependencies
 ├── README.md                        # This file
 └── LICENSE                          # MIT License
+paper/                              # Conference paper drafts
+└── research_paper_draft_april2026.pdf
 ```
 
 ---
