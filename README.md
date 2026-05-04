@@ -369,4 +369,40 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ---
 
-*Last updated: April 24, 2026*
+## Extended Analysis: Between-Peaks Cross-Period Comparison
+
+In response to supervisor feedback (April 2026), the analytical 
+pipeline was extended to cover three pandemic windows:
+
+- **Pre-Delta Inter-Peak:** April 1 – June 30, 2021 (78,410 tweets)
+- **Delta Peak:** July 1 – September 30, 2021 (72,847 tweets)
+- **Post-Delta Inter-Peak:** October 1 – November 30, 2021 (30,796 tweets)
+- **Total:** 182,053 tweets
+
+### Key Findings
+
+1. The negative dialogic-engagement effect generalizes across 
+   all three windows.
+2. The sentiment-engagement coefficient varies with crisis 
+   intensity (β = 0.63 at Delta peak, β = 1.11 in Post-Delta).
+3. The media-richness coefficient reverses sign between Delta 
+   peak (β = +1.26) and Post-Delta (β = -0.37), suggesting 
+   phase-dependent dynamics.
+
+### Reproducibility
+
+Run `notebooks/extended_analysis_between_peaks.ipynb` end-to-end. 
+All intermediate checkpoints are saved to Google Drive and 
+referenced in the notebook.
+
+### Methods Note
+
+The Zero-Inflated Negative Binomial specification used in the 
+main Delta-only analysis failed to converge for the Pre-Delta 
+and Delta windows in the extended analysis (Hessian inversion 
+warnings due to separation in the inflation component). For 
+cross-window comparability, all three windows were re-fit with 
+Negative Binomial GLM, with NB-GLM results reported as the 
+primary cross-period comparison.
+
+*Last updated: May 4, 2026*
