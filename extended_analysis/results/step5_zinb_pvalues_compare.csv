@@ -1,0 +1,12 @@
+Variable,Pre-Delta Inter-Peak
+alpha,0.0
+const,0.0
+has_question,0.0
+has_url,0.0
+hashtag_count_z,0.0
+inflate_const,0.0
+inflate_has_url,0.0479
+inflate_text_length_z,0.0
+mention_count_z,0.0
+roberta_score,0.0
+text_length_z,0.0

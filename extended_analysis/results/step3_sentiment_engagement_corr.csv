@@ -1,0 +1,4 @@
+Period,VADER-Engagement (Spearman),VADER p-value,RoBERTa-Engagement (Spearman),RoBERTa p-value
+Pre-Delta Inter-Peak,0.075,0.0,0.1556,0.0
+Delta Peak,0.0499,0.0,0.1314,0.0
+Post-Delta Inter-Peak,-0.0091,0.11111,0.118,0.0

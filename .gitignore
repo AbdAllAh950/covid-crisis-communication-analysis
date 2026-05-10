@@ -1,7 +1,13 @@
-# Data files
-*.csv
-*.json
-*.pkl
+# Large raw datasets and checkpoints (too large for git)
+*.parquet
+between_peaks_with_sentiment.csv
+between_peaks_with_topics.csv
+between_peaks_filtered.csv
+bertopic_model_extended/
+*.bin
+*.h5
+*.safetensors
+*.model
 
 # Jupyter
 .ipynb_checkpoints/
@@ -18,12 +24,6 @@ venv/
 env/
 .venv
 
-# Model files (too large for git)
-*.model
-*.bin
-*.h5
-*.safetensors
-
 # IDE
 .vscode/
 .idea/
@@ -32,8 +32,3 @@ env/
 # OS
 .DS_Store
 Thumbs.db
-
-# Results outputs (generated)
-outputs/
-results/
-figures/
