@@ -3,6 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Status](https://img.shields.io/badge/status-research%20project-green.svg)]()
+[![Extended Analysis](https://img.shields.io/badge/extended%20analysis-3%20periods%20%7C%20182k%20tweets-blueviolet.svg)](extended_analysis/)
 
 **Master's Thesis Research Project — ITMO University, Saint Petersburg**
 
@@ -14,6 +15,7 @@
 - [Quick Start](#quick-start)
 - [Research Overview](#research-overview)
 - [Key Findings](#key-findings)
+- [Extended Analysis (Cross-Period)](#extended-analysis-cross-period)
 - [Dataset](#dataset)
 - [Methodology](#methodology)
 - [Results Summary](#results-summary)
@@ -110,6 +112,30 @@ Positive sentiment increases engagement consistently, but the magnitude varies b
 This argues for routinely reporting sentiment results under multiple tools rather than committing to a single specification.
 
 ---
+
+
+---
+
+## Extended Analysis (Cross-Period)
+
+In response to supervisor feedback (April 2026), the analytical pipeline was extended beyond the Delta-only window to cover three pandemic phases:
+
+| Period | Window | N tweets |
+|---|---|---|
+| Pre-Delta inter-peak | April 1 – June 30, 2021 | 78,410 |
+| Delta peak | July 1 – September 30, 2021 | 72,847 |
+| Post-Delta inter-peak | October 1 – November 30, 2021 | 30,796 |
+| **Total** | | **182,053** |
+
+**Three findings from the cross-period extension:**
+
+1. The negative dialogic-engagement effect generalizes across all three windows (β = −0.55, −0.24, −0.14).
+2. The sentiment-engagement coefficient varies systematically with crisis intensity (β = 0.63 at Delta peak; β = 1.11 in Post-Delta inter-peak).
+3. The media-richness coefficient reverses sign between Delta peak (β = +1.26) and Post-Delta inter-peak (β = −0.37), suggesting phase-dependent dynamics.
+
+The full notebook, results, and figures are in [`extended_analysis/`](extended_analysis/). See thesis Section 3.5.1 and Appendix D for the complete write-up.
+
+**Methods note:** the main thesis used Zero-Inflated Negative Binomial (ZINB) regression. In the cross-period extension, ZINB failed to converge for two of the three windows due to Hessian inversion issues, so all three windows were re-fit with Negative Binomial GLM for cross-window comparability.
 
 ## Dataset
 
