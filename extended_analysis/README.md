@@ -1,3 +1,5 @@
+> **Superseded (6 Nov 2026).** The results in this folder were produced without removing automated accounts or controlling for account reach, and the per-window GLMs fixed the dispersion at 1. The sample sizes below are raw counts before deduplication. See [../CORRECTIONS.md](../CORRECTIONS.md) and use [../reanalysis/](../reanalysis/) instead.
+
 # Extended Analysis: Between-Peaks Cross-Period Comparison
 
 This folder contains the cross-period extension of the main thesis analysis,
