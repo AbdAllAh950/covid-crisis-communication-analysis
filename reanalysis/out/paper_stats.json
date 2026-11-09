@@ -1,0 +1,62 @@
+{
+ "pre": {
+  "date_min": "2021-04-01 00:00:03",
+  "date_max": "2021-06-29 23:57:27",
+  "N": 77745,
+  "bot_N": 8395,
+  "bot_pct": 10.8,
+  "bot_mean_eng": 0.27,
+  "bot_zero_pct": 74.9,
+  "nonbot_mean_eng": 17.97,
+  "bot_accounts": 14,
+  "nonbot_N": 69350,
+  "nonbot_users": 37488
+ },
+ "delta": {
+  "date_min": "2021-07-01 00:05:18",
+  "date_max": "2021-09-29 23:43:54",
+  "N": 71845,
+  "bot_N": 24415,
+  "bot_pct": 34.0,
+  "bot_mean_eng": 0.06,
+  "bot_zero_pct": 93.7,
+  "nonbot_mean_eng": 9.74,
+  "bot_accounts": 8,
+  "nonbot_N": 47430,
+  "nonbot_users": 23963
+ },
+ "post": {
+  "date_min": "2021-10-01 00:04:52",
+  "date_max": "2021-11-23 20:58:08",
+  "N": 30688,
+  "bot_N": 4408,
+  "bot_pct": 14.4,
+  "bot_mean_eng": 0.24,
+  "bot_zero_pct": 76.5,
+  "nonbot_mean_eng": 18.38,
+  "bot_accounts": 9,
+  "nonbot_N": 26280,
+  "nonbot_users": 13203
+ },
+ "delta_top_bot_accounts": {
+  "CoWIN Blore 18-44": 10065,
+  "Owl 🦉": 5470,
+  "VaxBLR": 4040,
+  "CowinBangalore": 3669,
+  "Owl🦉": 1160
+ },
+ "delta_top5_bot_share_of_bot": 100.0,
+ "delta_slot_accounts_tweets": 24404,
+ "delta_kw_in_slot_accounts_n": 24404,
+ "delta_kw_in_bot_pct": 100.0,
+ "delta_kw_in_nonbot_pct": 1.7,
+ "delta_nonbot_vader_classes": {
+  "neg_pct": 18.8,
+  "neu_pct": 44.5,
+  "pos_pct": 36.8
+ },
+ "delta_nonbot_followers_median": 346.0,
+ "delta_nonbot_tweets_per_user_median": 1.0,
+ "delta_nonbot_users_gt50": 52,
+ "corr_logfollowers_engagement_nonbot": 0.465
+}
